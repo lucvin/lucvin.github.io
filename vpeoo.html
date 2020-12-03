@@ -6,171 +6,192 @@
     <title>Aulas Online</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   </head>
-  <body>
+  <body class="bg-secondary">
     <div class="container">
       <div class="row">
         <div class="col">
-          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">VAulas Online</a>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Início <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="peoo.html">PEOO</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-          <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="index.html">Início</a></li>
-              <li class="breadcrumb-item"><a href="peoo.html">PEOO</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Programação Estruturada a Objetos</li>
-            </ol>
-          </nav>
+          <ul class="justify-content-md-center nav nav-tabs bg-light " id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="home-tab" data-toggle="tab" href="index.html" role="tab" aria-controls="home" aria-selected="true">Início</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="profile-tab" data-toggle="tab" href="peoo.html" role="tab" aria-controls="profile" aria-selected="false">PEOO</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="contact-tab" data-toggle="tab" href="atividades.html" role="tab" aria-controls="contact" aria-selected="false">Listas/atividades</a>
+            </li>
+          </ul>
+          <div class="row">
+            <p></p>
+          </div>
 
           <div class="card">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="imagens\Java.png" class="card-img" alt="Logo Java">
+            <div class="row no-gutters bg-light position-relative">
+              <div class="col-md-6 mb-md-0 p-md-4">
+                <img src="imagens\guia-linguagem-java-38169.png" class="w-100" alt="Linguagem java">
               </div>
-              <div class="col">
-                <div class="card-body">
-                  <h5 class="card-title">Aula 1</h5>
-                  <p class="card-text"><b>SEM SINOPSE</b> <br>A aula está localizada em um player externo!</p>
-                  <a type="button" class="btn btn-outline-success" href="https://drive.google.com/file/d/1KwtafeltYzp5PVVWUsvmHj79oXeoICdC/view">Aula 1</a>
-                  <p class="card-text"><b>Não Possui matérial de aula!</b></p>
-                </div>
+              <div class="col-md-6 position-static p-4 pl-md-0">
+                <p> </p>
+                <p> </p>
+                <h2 class="mt-0">Aula 1</h2>
+                <p> </p>
+                <b>SEM SINOPSE</b> <br>A aula está localizada em player externo!</p>
+                <p> </p>
+                <a type="button" class="btn btn-outline-success" href="https://drive.google.com/file/d/1KwtafeltYzp5PVVWUsvmHj79oXeoICdC/view">Acesso a vídeo aula</a>
+                <p> </p>
+                <p class="card-text"><b>Não Possui matérial de aula!</b></p>
               </div>
             </div>
           </div>
 
           <div class="card">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="imagens\Java.png" class="card-img" alt="Logo Java">
+            <div class="row no-gutters bg-light position-relative">
+              <div class="col-md-6 mb-md-0 p-md-4">
+                <p> </p>
+                <p> </p>
+                <h2 class="mt-0">Aula 2</h2>
+                <p> </p>
+                <b>SEM SINOPSE</b> <br>A aula está localizada em player externo!</p>
+                <p> </p>
+                <a type="button" class="btn btn-outline-success" href="https://drive.google.com/file/d/1g7pYPo2HwnT15JoVGeVZRFGXP92LxgGd/view">Acesso a vídeo aula</a>
+                <p> </p>
+                <p class="card-text"><b>Não Possui matérial de aula!</b></p>
               </div>
-              <div class="col">
-                <div class="card-body">
-                  <h5 class="card-title">Aula 2</h5>
-                  <p class="card-text"><b>SEM SINOPSE</b> <br>A aula está localizada em um player externo!</p>
-                  <a type="button" class="btn btn-outline-success" href="https://drive.google.com/file/d/1g7pYPo2HwnT15JoVGeVZRFGXP92LxgGd/view">Aula 2</a>
-                  <p class="card-text"><b>Não Possui matérial de aula!</b></p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="imagens\Java.png" class="card-img" alt="Logo Java">
-              </div>
-              <div class="col">
-                <div class="card-body">
-                  <h5 class="card-title">Aula 3</h5>
-                  <p class="card-text"><b>SEM SINOPSE</b> <br>A aula está localizada em um player externo!</p>
-                  <a type="button" class="btn btn-outline-success" href="https://drive.google.com/file/d/1XpdghcNDnE2P6xrJGNThE9EjIy98DcLL/view">Aula 3</a>
-                  <p class="card-text"><b>Não Possui matérial de aula!</b></p>
-                </div>
+              <div class="col-md-6 position-static p-4 pl-md-0">
+                <img src="imagens\guia-linguagem-java-38169.png" class="w-100" alt="Linguagem java">
               </div>
             </div>
           </div>
 
           <div class="card">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="imagens\Java.png" class="card-img" alt="Logo Java">
+            <div class="row no-gutters bg-light position-relative">
+              <div class="col-md-6 mb-md-0 p-md-4">
+                <img src="imagens\guia-linguagem-java-38169.png" class="w-100" alt="Linguagem java">
               </div>
-              <div class="col">
-                <div class="card-body">
-                  <h5 class="card-title">Aula 4</h5>
-                  <p class="card-text"><b>SEM SINOPSE</b> <br>A aula está localizada em um player externo!</p>
-                  <a type="button" class="btn btn-outline-success" href="https://drive.google.com/file/d/16iS50Tk5dzieIvnEie4rU7KEBfgF_yHl/view">Aula 4</a>
-                  <p class="card-text"><b>Não Possui matérial de aula!</b></p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="imagens\Java.png" class="card-img" alt="Logo Java">
-              </div>
-              <div class="col">
-                <div class="card-body">
-                  <h5 class="card-title">Aula 5</h5>
-                  <p class="card-text"><b>SEM SINOPSE</b> <br>A aula está localizada em um player externo!</p>
-                  <a type="button" class="btn btn-outline-success" href="https://drive.google.com/file/d/1iy_kE2JRzpczLr1n7iIl-rFGMTYwpBxO/view">Aula 5</a>
-                  <p class="card-text"><b>Não Possui matérial de aula!</b></p>
-                </div>
+              <div class="col-md-6 position-static p-4 pl-md-0">
+                <p> </p>
+                <p> </p>
+                <h2 class="mt-0">Aula 3</h2>
+                <p> </p>
+                <b>SEM SINOPSE</b> <br>A aula está localizada em player externo!</p>
+                <p> </p>
+                <a type="button" class="btn btn-outline-success" href="https://drive.google.com/file/d/1XpdghcNDnE2P6xrJGNThE9EjIy98DcLL/view">Acesso a vídeo aula</a>
+                <p> </p>
+                <p class="card-text"><b>Não Possui matérial de aula!</b></p>
               </div>
             </div>
           </div>
 
           <div class="card">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="imagens\Java.png" class="card-img" alt="Logo Java">
+            <div class="row no-gutters bg-light position-relative">
+              <div class="col-md-6 mb-md-0 p-md-4">
+                <p> </p>
+                <p> </p>
+                <h2 class="mt-0">Aula 4</h2>
+                <p> </p>
+                <b>SEM SINOPSE</b> <br>A aula está localizada em player externo!</p>
+                <p> </p>
+                <a type="button" class="btn btn-outline-success" href="https://drive.google.com/file/d/16iS50Tk5dzieIvnEie4rU7KEBfgF_yHl/view">Acesso a vídeo aula</a>
+                <p> </p>
+                <p class="card-text"><b>Não Possui matérial de aula!</b></p>
               </div>
-              <div class="col">
-                <div class="card-body">
-                  <h5 class="card-title">Aula 6</h5>
-                  <p class="card-text"><b>SEM SINOPSE</b> <br>A aula está localizada em um player externo!</p>
-                  <a type="button" class="btn btn-outline-success" href="https://drive.google.com/file/d/1MgEXL-prV0mIjqudlt4xokjy2vF9cxS5/view">Aula 6</a>
-                  <p class="card-text"><b>Não Possui matérial de aula!</b></p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="imagens\Java.png" class="card-img" alt="Logo Java">
-              </div>
-              <div class="col">
-                <div class="card-body">
-                  <h5 class="card-title">Aula 7</h5>
-                  <p class="card-text"><b>SEM SINOPSE</b> <br>A aula está localizada em um player externo!</p>
-                  <a type="button" class="btn btn-outline-success" href="https://drive.google.com/file/d/1j8gdWef7_yz5RvtlHZ5Klt5IyQaNPPxx/view">Aula 8</a>
-                  <a type="button" class="btn btn-outline-success" href="materiais\peoo\materiais_peoo_aula7.html">Materiais da aula</a>
-                </div>
+              <div class="col-md-6 position-static p-4 pl-md-0">
+                <img src="imagens\guia-linguagem-java-38169.png" class="w-100" alt="Linguagem java">
               </div>
             </div>
           </div>
 
           <div class="card">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="imagens\Java.png" class="card-img" alt="Logo Java">
+            <div class="row no-gutters bg-light position-relative">
+              <div class="col-md-6 mb-md-0 p-md-4">
+                <img src="imagens\guia-linguagem-java-38169.png" class="w-100" alt="Linguagem java">
               </div>
-              <div class="col">
-                <div class="card-body">
-                  <h5 class="card-title">Aula 8</h5>
-                  <p class="card-text"><b>SEM SINOPSE</b> <br>A aula está localizada em um player externo!</</a></p>
-                  <a type="button" class="btn btn-outline-success" href="https://drive.google.com/file/d/16PjL9KauBkOARu8I8MXaN3xScCsw0tO0/view">Aula 8</a>
-                  <a type="button" class="btn btn-outline-success" href="materiais\peoo\materiais_peoo_aula8.html">Materiais da aula</a>
-                </div>
+              <div class="col-md-6 position-static p-4 pl-md-0">
+                <p> </p>
+                <p> </p>
+                <h2 class="mt-0">Aula 5</h2>
+                <p> </p>
+                <b>SEM SINOPSE</b> <br>A aula está localizada em player externo!</p>
+                <p> </p>
+                <a type="button" class="btn btn-outline-success" href="https://drive.google.com/file/d/1iy_kE2JRzpczLr1n7iIl-rFGMTYwpBxO/view">Acesso a vídeo aula</a>
+                <p> </p>
+                <p class="card-text"><b>Não Possui matérial de aula!</b></p>
               </div>
             </div>
           </div>
 
           <div class="card">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="imagens\Java.png" class="card-img" alt="Logo Java">
+            <div class="row no-gutters bg-light position-relative">
+              <div class="col-md-6 mb-md-0 p-md-4">
+                <p> </p>
+                <p> </p>
+                <h2 class="mt-0">Aula 6</h2>
+                <p> </p>
+                <b>SEM SINOPSE</b> <br>A aula está localizada em player externo!</p>
+                <p> </p>
+                <a type="button" class="btn btn-outline-success" href="https://drive.google.com/file/d/1MgEXL-prV0mIjqudlt4xokjy2vF9cxS5/view">AAcesso a vídeo aula</a>
+                <p> </p>
+                <p class="card-text"><b>Não Possui matérial de aula!</b></p>
               </div>
-              <div class="col">
-                <div class="card-body">
-                  <h5 class="card-title">Aula 9</h5>
-                  <p class="card-text"><b>SEM SINOPSE</b> <br>A aula está localizada em um player externo!</p>
-                  <a type="button" class="btn btn-outline-success" href="https://drive.google.com/file/d/1eJ5jx9fEeFrPwFBMQXXx4_6Lh6Eelav2/view">Aula 9</a>
-                  <a type="button" class="btn btn-outline-success" href="materiais\peoo\materiais_peoo_aula9.html">Materiais da aula</a>
-                </div>
+              <div class="col-md-6 position-static p-4 pl-md-0">
+                <img src="imagens\guia-linguagem-java-38169.png" class="w-100" alt="Linguagem java">
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="row no-gutters bg-light position-relative">
+              <div class="col-md-6 mb-md-0 p-md-4">
+                <img src="imagens\guia-linguagem-java-38169.png" class="w-100" alt="Linguagem java">
+              </div>
+              <div class="col-md-6 position-static p-4 pl-md-0">
+                <p> </p>
+                <p> </p>
+                <h2 class="mt-0">Aula 7</h2>
+                <p> </p>
+                <b>SEM SINOPSE</b> <br>A aula está localizada em player externo!</p>
+                <p> </p>
+                <a type="button" class="btn btn-outline-success" href="https://drive.google.com/file/d/1j8gdWef7_yz5RvtlHZ5Klt5IyQaNPPxx/view">Acesso a vídeo aula</a>
+                <p> </p>
+                <a type="button" class="btn btn-outline-success" href="materiais\peoo\materiais_peoo_aula7.html">Acesso aos materiais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="row no-gutters bg-light position-relative">
+              <div class="col-md-6 mb-md-0 p-md-4">
+                <p> </p>
+                <p> </p>
+                <h2 class="mt-0">Aula 8</h2>
+                <p> </p>
+                <b>SEM SINOPSE</b> <br>A aula está localizada em player externo!</p>
+                <p> </p>
+                <a type="button" class="btn btn-outline-success" href="https://drive.google.com/file/d/1j8gdWef7_yz5RvtlHZ5Klt5IyQaNPPxx/view">Acesso a vídeo aula</a>
+                <p> </p>
+                <a type="button" class="btn btn-outline-success" href="materiais\peoo\materiais_peoo_aula8.html">Acesso aos materiais</a>
+              </div>
+              <div class="col-md-6 position-static p-4 pl-md-0">
+                <img src="imagens\guia-linguagem-java-38169.png" class="w-100" alt="Linguagem java">
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="row no-gutters bg-light position-relative">
+              <div class="col-md-6 mb-md-0 p-md-4">
+                <img src="imagens\guia-linguagem-java-38169.png" class="w-100" alt="Linguagem java">
+              </div>
+              <div class="col-md-6 position-static p-4 pl-md-0">
+                <p> </p>
+                <p> </p>
+                <h2 class="mt-0">Aula 9</h2>
+                <p> </p>
+                <b>SEM SINOPSE</b> <br>A aula está localizada em player externo!</p>
+                <p> </p>
+                <a type="button" class="btn btn-outline-success" href="https://drive.google.com/file/d/1eJ5jx9fEeFrPwFBMQXXx4_6Lh6Eelav2/view">Acesso a vídeo aula</a>
+                <p> </p>
+                <a type="button" class="btn btn-outline-success" href="materiais\peoo\materiais_peoo_aula9.html">Acesso aos materiais</a>
               </div>
             </div>
           </div>
